@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Estilos del body */
+
+body{
+    background-color: #22577E;
+}
+
+.Logo{
+    height: 70px;
+    width: 70px;
+    margin-right: 30px;
+}
+
+h1{
+    padding: 100px;
+}
+.contenedor{
+    display: grid;
+    height: 200vh;
+    grid-column: repeat (3, 1fr);
+    grid-template-rows: 0.3fr 0.8fr 0.5fr 0.2fr;
+    grid-template-areas: "header header header "
+                         " main main aside"
+                         "section section2 aside"
+                         "footer footer footer ";
+    gap: 10px;                       
+}
+header{
+    grid-area: header;
+    background-color: #22577E;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 150px;
+}
+
+header h1{
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+    color: #FAFFAF;
+    font-size: 50px;
+    align-self: center;
+}
+
+nav{
+    font-family: 'EB Garamond', serif;
+    color: #FAFFAF;
+}
+
+.nav-background{
+    background-color: #67a29e;
+}
+
+.dropdown-menu{
+    background-color: #67a29e;
+}
+
+main{
+    background-color: #22577E;
+    grid-area: main;
+    color: #FAFFAF;
+}
+
+.main-toldos{
+    margin-bottom: 70px;
+}
+
+#carouselExampleCaptions{
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.carousel-inner{
+    border-radius: 15%;
+}
+
+.maintxt{
+    font-family: 'EB Garamond', serif;
+    color: #FAFFAF;
+    text-align: center;
+    padding: 20px;
+}
+
+.th2{
+    font-family: 'EB Garamond', serif;
+    margin-top: 70px;
+}
+
+.h2-contact{
+    margin: 30px;
+    text-align: center;
+    color: #FAFFAF;
+    font-family:'EB Garamond', serif ;
+}
+
+.p-contact{
+    text-align: center;
+    color: #FAFFAF;
+    font-family:'EB Garamond', serif ;
+}
+
+.form-contact{
+    padding: 30px;
+    color: #FAFFAF;
+    font-family:'EB Garamond', serif ;
+}
+
+.h2-instructivos{
+    text-align: center;
+    margin: 50px;
+}
+
+aside{
+    background-color: #22577E;
+    grid-area: aside;
+    font-family: 'EB Garamond', serif;
+    color: #FAFFAF;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+fieldset{
+    height: 400px;
+    border: none;
+    margin-top: 30px;
+    font-size: large;
+}
+
+.legendindex{
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+
+.input1{
+    margin-left: 20px;
+}
+.input2{
+    margin-left: 40px;
+}
+.input3{
+    margin-left: 19px;
+}
+.input4{
+    margin-left: 16px;
+}
+.input5{
+    margin-left: 22px;
+}
+
+.i1{
+  margin: 20px;
+}
+.i11{
+    margin-left: 100px;
+  }
+
+.i2{
+    margin: 20px;
+}
+.i21{
+    margin-left: 138px;
+  }
+
+.i3{
+    margin: 20px;
+}
+.i31{
+    margin-left: 118px;
+}
+
+.i4{
+    margin: 20px;
+}
+.i41{
+    margin-left: 42px;
+}
+
+.boton{
+    margin-left: 275px;
+}
+
+.nombre{
+    margin: 50px;
+}
+
+.mail{
+    margin: 50px;
+}
+.telefono{
+    margin: 50px;
+}
+.producto{
+    margin: 50px;
+}
+.medidas{
+    margin: 50px;
+}
+form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: #67a29e;
+    cursor: pointer;
+    font-family: 'EB Garamond', serif;
+    color: #FAFFAF;
+    margin-left: 35%;
+  }
+legend{
+    text-align: center;
+}
+
+section{
+    background-color: #22577E;
+    grid-area: section;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imgcor{
+    border-radius: 20%;
+    border-style:outset;
+    border-color: #FAFFAF;
+    border-width: 0.1cm;
+    height: 300px;
+    width: 400px;
+}
+
+.ctxt{
+    font-family: 'EB Garamond', serif;
+    color: #FAFFAF;
+    font-size: 30px;
+}
+.section2{
+    background-color: #22577E;
+    grid-area: section2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imgtol{
+    border-radius: 20%;
+    border-style:outset;
+    border-color: #FAFFAF;
+    border-width: 0.1cm;
+    height: 300px;
+    width: 400px;
+}
+
+.ttxt{
+    font-family: 'EB Garamond', serif;
+    color: #FAFFAF;
+    font-size: 30px;
+}
+
+.card-body{
+    background-color: #67a29e;
+    font-family: 'EB Garamond', serif;
+}
+h5{
+    font-weight: bold;
+}
+
+.h1-cortinas{
+    margin-top: 80px;
+    padding: 5px;
+}
+
+.title-cortinas{
+    font-family: 'EB Garamond', serif;
+    padding: 20px;
+}
+
+footer{
+    background-color: #22577E;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family: 'EB Garamond', serif;
+    color: #FAFFAF;
+    margin-bottom: 20px;
+}
+
+.f1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f2{
+    display: flex;
+    flex-direction: column;
+}
+.f2 a{
+    text-decoration: none;
+    color: #FAFFAF;
+}
+
