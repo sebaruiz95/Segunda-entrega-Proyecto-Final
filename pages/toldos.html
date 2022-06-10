@@ -23,11 +23,12 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="row">
-            <h1 class="col-12 text-center">Eclipse - Cortinas y Toldos</h1>
-            <nav class="navbar navbar-expand-lg nav-background">
+    <div class="contenedortoldos">
+        <header class="headertoldos">
+            <h1 class="h1-toldos">Eclipse Cortinas y Toldos</h1>
+            <nav class="navbar navbar-expand-lg nav-background fixed-top">
                 <div class="container">
+                  <a href="../index.html"><img src="../img/Logo.png" alt="Logo Eclipse" class="Logo"></a>
                   <a class="navbar-brand" href="../index.html">Tienda Online</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -58,36 +59,62 @@
               </nav>
         </header>
         
-        <main class="row main-toldos">
+        <main class="maintoldos">
               
-            <h2 class="col text-center th2">Toldos</h2>
+            <h2 class="title-toldos text-center">Toldos</h2>
         
-            <div class="row">
-                <section class="col-6">
-                <img src="../img/tgiardino.png" alt="Toldo Giardino">
-                <h3 class="t1">Toldo Giardino</h3>
-                <img src="../img/tvertical.png" alt="Toldo Vertical">
-                <h3 class="t2">Toldo Vertical</h3>
-                </section>
-                <section class="col-6">
-                <img src="../img/tclasico.png" alt="Toldo Clásico">
-                <h3 class="t3">Toldo Clásico</h3>
-                <img src="../img/tbarraquadra.png" alt="Toldo Barraquadra">
-                <h3 class="t4">Toldo Barraquadra</h3>
-                </section>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="../img/tgiardino.png" class="card-img-top" alt="Toldo Giardino">
+                  <div class="card-body">
+                    <h5 class="card-title">Toldo Giardino</h5>
+                    <p class="card-text">Toldo doble cuyos brazos funcionan extendiéndose o plegándose bajo la tela del mismo, permitiendo así, que ésta los oculte. El toldo sigue una forma a dos aguas.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="../img/tvertical.png" class="card-img-top" alt="Toldo Vertical">
+                  <div class="card-body">
+                    <h5 class="card-title">Toldo Vertical</h5>
+                    <p class="card-text">Toldo cuya tela se desliza verticalmente al ser accionado, como una roller.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="../img/tclasico.png" class="card-img-top" alt="Toldo Clásico">
+                  <div class="card-body">
+                    <h5 class="card-title">Toldo Clásico</h5>
+                    <p class="card-text">Toldo cuyos brazos, tomados del zócalo del toldo en un extremo y de la pared del otro, pivotean, a medida que se extiende o se pliega el mismo.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="../img/tbarraquadra.png" class="card-img-top" alt="Toldo Barraquadra">
+                  <div class="card-body">
+                    <h5 class="card-title">Toldo Barraquadra</h5>
+                    <p class="card-text">Toldo cuyos brazos funcionan extendiéndose o plegándose bajo la tela del mismo, permitiendo así, que ésta los oculte.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
         
         </main>
         
-        <footer class="row">
-            <section class="col f1">
+        <footer>
+            <section class="f1">
                 <p>Información sobre la tienda</p>
                 <p>Teléfono:</p>
                 <p>Horarios de Atención:</p>
                 <p>Dirección:</p>
             </section>
         
-            <section class="col f2">
+            <section class="f2">
                 <a href="./contacto.html">Contacte con nosotros</a>
                 <article class="social">
                 <a class="lf" href="https://www.facebook.com/eclipse.cortinasytoldos" target="_blank"><img width="30" height="30"src="../img/facebook.png" alt="Logo Facebook"></a><a href="https://www.instagram.com/accounts/login/?next=/eclipse.cortinas.y.toldos/" target="_blank"><img
@@ -97,13 +124,13 @@
                 </article>
             </section>
         
-            <section class="col f3">
+            <section class="f3">
             <p>© Todos los derechos reservados</p>
             <p>Diseñado por Seba</p>
             </section>
         </footer>
     </div>
-    <!-- Link JS BS -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
